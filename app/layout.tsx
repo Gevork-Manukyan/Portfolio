@@ -45,6 +45,9 @@ export const metadata: Metadata = {
     "Portfolio",
   ],
   authors: [{ name: profile.name }],
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     url: siteUrl,
