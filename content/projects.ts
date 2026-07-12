@@ -23,7 +23,7 @@ export const projects: Project[] = [
     description:
       "A scheduling tool that overlays everyone's availability to instantly surface the best time for a group to meet. Built on Next.js with an Appwrite backend handling auth and data.",
     tech: ["Next.js", "React", "Appwrite", "Tailwind CSS"],
-    liveUrl: "https://group-scheduler-five.vercel.app",
+    liveUrl: "https://groupscheduler.gevorkmanukyan.com",
     repoUrl: "https://github.com/Gevork-Manukyan/GroupScheduler",
     image: "/projects/group_scheduler.webp",
     featured: true,
