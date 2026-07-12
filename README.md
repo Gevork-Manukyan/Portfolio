@@ -6,7 +6,7 @@
 
 A creative, dark-first personal site with an interactive hero, scroll-driven motion, and a working contact form.
 
-[**Live Site**](https://example.com) · [About](#-about) · [Getting Started](#-getting-started) · [Deploy](#-deploy)
+[**Live Site**](https://gevorkmanukyan.com) · [About](#-about) · [Getting Started](#-getting-started) · [Deploy](#-deploy)
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-19-149ECA?logo=react&logoColor=white)
