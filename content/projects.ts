@@ -80,7 +80,9 @@ export const moreProjects: MoreProject[] = [
     title: "Corpcomment",
     blurb: "A UI demo for a product-feedback board (HTML/CSS front-end only).",
     tag: "HTML/CSS",
+    liveUrl: "https://corpcomment-eosin.vercel.app",
     repoUrl: "https://github.com/Gevork-Manukyan/Corpcomment",
+    status: "demo",
   },
   {
     title: "TuringSim",
