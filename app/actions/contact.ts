@@ -29,7 +29,7 @@ export async function submitContact(
     }
     // Honeypot tripped — pretend success so bots get no signal.
     if (errors.company) {
-      return { status: "success", message: "Thanks so much — your message is on its way and I'll be in touch soon! 🎉" };
+      return { status: "success", message: "Thanks so much! Your message is on its way and I'll be in touch soon. 🎉" };
     }
     return { status: "error", message: "Please fix the errors below.", errors };
   }
@@ -86,7 +86,7 @@ export async function submitContact(
       subject: "Thanks for reaching out! 👋",
       text: `Hey ${name},
 
-Thanks so much for reaching out — your message just landed in my inbox and honestly made my day. 🎉
+Thanks so much for reaching out! Your message just landed in my inbox and honestly made my day. 🎉
 
 I read everything that comes through personally, so this isn't an into-the-void kind of thing. I'll get back to you as soon as I can, usually within a day or two.
 
@@ -97,5 +97,5 @@ ${profile.name}`,
     console.error("[contact] Auto-reply failed (submission still succeeded):", err);
   }
 
-  return { status: "success", message: "Thanks so much — your message is on its way and I'll be in touch soon! 🎉" };
+  return { status: "success", message: "Thanks so much! Your message is on its way and I'll be in touch soon. 🎉" };
 }

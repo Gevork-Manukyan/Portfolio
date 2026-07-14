@@ -10,8 +10,8 @@ export const profile = {
     "Full Stack Software Engineer specializing in React, TypeScript, REST APIs, database-driven business applications, and end-to-end product development.",
   // A few sentences for the About section
   bio: [
-    "I'm a full-stack software engineer who builds database-driven business applications end to end. Day to day that means designing React and TypeScript frontends on top of REST APIs and relational or document databases — production software real teams rely on, from a healthcare operations platform used across surgery centers to multi-tenant systems that replace manual, paper-based workflows.",
-    "My work spans ecosystems — React/Next.js and Node/Express through to ASP.NET Core on Azure — and the full lifecycle: hundreds of REST endpoints, large relational schemas, background data pipelines, and CI/CD. I care about clean architecture, reliable data, and interfaces that make complicated workflows feel simple.",
+    "I'm a full-stack software engineer who builds database-driven business applications end to end. Day to day that means designing React and TypeScript frontends on top of REST APIs and relational or document databases. This is production software real teams rely on, from a healthcare operations platform used across surgery centers to multi-tenant systems that replace manual, paper-based workflows.",
+    "My work spans ecosystems, from React/Next.js and Node/Express to ASP.NET Core on Azure, and the full lifecycle: hundreds of REST endpoints, large relational schemas, background data pipelines, and CI/CD. I care about clean architecture, reliable data, and interfaces that make complicated workflows feel simple.",
   ],
   location: "Los Angeles, CA",
   // Contact email — the contact form delivers here (see app/actions/contact.ts)

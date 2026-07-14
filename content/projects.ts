@@ -32,7 +32,7 @@ export const projects: Project[] = [
   {
     title: "Command of Nature",
     description:
-      "A real-time multiplayer card game (2 or 4 players) built on a server-authoritative engine. A modular finite-state machine enforces deterministic gameplay and blocks client-side manipulation, while a Socket.io layer handles lobbies, room-based sessions, and synchronized state — with hybrid in-memory + MongoDB persistence, JWT auth, and decoupled engine/transport/persistence layers deployed on AWS.",
+      "A real-time multiplayer card game (2 or 4 players) built on a server-authoritative engine. A modular finite-state machine enforces deterministic gameplay and blocks client-side manipulation, while a Socket.io layer handles lobbies, room-based sessions, and synchronized state, backed by hybrid in-memory and MongoDB persistence, JWT auth, and decoupled engine/transport/persistence layers deployed on AWS.",
     tech: ["Next.js", "TypeScript", "Socket.io", "Express", "MongoDB", "AWS"],
     repoUrl: "https://github.com/Gevork-Manukyan/Command-of-Nature",
     image: "",
@@ -90,13 +90,13 @@ export const moreProjects: MoreProject[] = [
   },
   {
     title: "MovieGang",
-    blurb: "A movie browsing and discovery app — built with Svelte.",
+    blurb: "A movie browsing and discovery app built with Svelte.",
     tag: "Svelte",
     repoUrl: "https://github.com/Gevork-Manukyan/MovieGang",
   },
   {
     title: "Polyrhythmic Rainbow",
-    blurb: "A generative audio-visual polyrhythm toy — a really cool sounding rainbow.",
+    blurb: "A generative audio-visual polyrhythm toy that makes a really cool sounding rainbow.",
     tag: "JavaScript",
     liveUrl: "https://polyrhythmic-rainbow.vercel.app",
     repoUrl: "https://github.com/Gevork-Manukyan/Polyrhythmic-Rainbow",

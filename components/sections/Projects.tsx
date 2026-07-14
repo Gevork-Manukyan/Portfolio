@@ -30,7 +30,7 @@ export function Projects() {
           <Reveal>
             <h3 className="font-display text-xl font-semibold">More builds</h3>
             <p className="mt-1 text-sm text-muted">
-              Smaller projects and experiments — links to each.
+              Smaller projects and experiments, with links to each.
             </p>
           </Reveal>
 
