@@ -64,7 +64,7 @@ export const moreProjects: MoreProject[] = [
     title: "Learn Russian",
     blurb: "A lightweight app for practicing common Russian vocabulary.",
     tag: "TypeScript",
-    liveUrl: "https://learn-russian-five.vercel.app",
+    liveUrl: "https://learnrussian.gevorkmanukyan.com",
     repoUrl: "https://github.com/Gevork-Manukyan/Learn-Russian",
     status: "live",
   },
