@@ -91,17 +91,17 @@ export const moreProjects: MoreProject[] = [
     repoUrl: "https://github.com/Gevork-Manukyan/TuringSim",
   },
   {
-    title: "MovieGang",
-    blurb: "A movie browsing and discovery app built with Svelte.",
-    tag: "Svelte",
-    repoUrl: "https://github.com/Gevork-Manukyan/MovieGang",
-  },
-  {
     title: "Polyrhythmic Rainbow",
     blurb: "A generative audio-visual polyrhythm toy that makes a really cool sounding rainbow.",
     tag: "JavaScript",
     liveUrl: "https://polyrhythmic-rainbow.vercel.app",
     repoUrl: "https://github.com/Gevork-Manukyan/Polyrhythmic-Rainbow",
     status: "live",
+  },
+  {
+    title: "MovieGang",
+    blurb: "A movie browsing and discovery app built with Svelte.",
+    tag: "Svelte",
+    repoUrl: "https://github.com/Gevork-Manukyan/MovieGang",
   },
 ];
