@@ -25,7 +25,7 @@ export const projects: Project[] = [
     tech: ["Next.js", "React", "Appwrite", "Tailwind CSS"],
     liveUrl: "https://groupscheduler.gevorkmanukyan.com",
     repoUrl: "https://github.com/Gevork-Manukyan/GroupScheduler",
-    image: "/projects/group-scheduler.png",
+    image: "/projects/group-scheduler.webp",
     featured: true,
     status: "live",
   },
