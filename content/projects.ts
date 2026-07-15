@@ -32,8 +32,8 @@ export const projects: Project[] = [
   {
     title: "Learn Russian",
     description:
-      "A lightweight app for practicing common Russian vocabulary.",
-    tech: ["TypeScript"],
+      "An interactive flashcard app for practicing Russian vocabulary, cycling through 646 Russian-English word pairs with 3D card-flip animations, shuffle mode, and session progress tracking.",
+    tech: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
     liveUrl: "https://learnrussian.gevorkmanukyan.com",
     repoUrl: "https://github.com/Gevork-Manukyan/Learn-Russian",
     image: "/projects/learn-russian.webp",
@@ -42,8 +42,8 @@ export const projects: Project[] = [
   {
     title: "TuringSim",
     description:
-      "A Turing machine simulator for stepping through tape-based computation.",
-    tech: ["TypeScript"],
+      "An interactive finite-state machine builder and simulator. Design a DFA on an infinite canvas — states, labeled transitions, start and accept states — then feed it an input string and watch it run step by step to an accept/reject result, with light/dark theming and autosave.",
+    tech: ["React", "TypeScript", "Vite", "Zustand", "SCSS"],
     liveUrl: "https://turingsim.gevorkmanukyan.com",
     repoUrl: "https://github.com/Gevork-Manukyan/TuringSim",
     image: "/projects/turing-sim.webp",
