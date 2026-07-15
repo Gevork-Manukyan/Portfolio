@@ -88,7 +88,9 @@ export const moreProjects: MoreProject[] = [
     title: "TuringSim",
     blurb: "A Turing machine simulator for stepping through tape-based computation.",
     tag: "TypeScript",
+    liveUrl: "https://turingsim.gevorkmanukyan.com",
     repoUrl: "https://github.com/Gevork-Manukyan/TuringSim",
+    status: "live",
   },
   {
     title: "Polyrhythmic Rainbow",
