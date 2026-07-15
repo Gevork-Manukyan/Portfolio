@@ -30,6 +30,26 @@ export const projects: Project[] = [
     status: "live",
   },
   {
+    title: "Learn Russian",
+    description:
+      "A lightweight app for practicing common Russian vocabulary.",
+    tech: ["TypeScript"],
+    liveUrl: "https://learnrussian.gevorkmanukyan.com",
+    repoUrl: "https://github.com/Gevork-Manukyan/Learn-Russian",
+    image: "/projects/learn-russian.webp",
+    status: "live",
+  },
+  {
+    title: "TuringSim",
+    description:
+      "A Turing machine simulator for stepping through tape-based computation.",
+    tech: ["TypeScript"],
+    liveUrl: "https://turingsim.gevorkmanukyan.com",
+    repoUrl: "https://github.com/Gevork-Manukyan/TuringSim",
+    image: "/projects/turing-sim.webp",
+    status: "live",
+  },
+  {
     title: "Command of Nature",
     description:
       "A real-time multiplayer card game (2 or 4 players) built on a server-authoritative engine. A modular finite-state machine enforces deterministic gameplay and blocks client-side manipulation, while a Socket.io layer handles lobbies, room-based sessions, and synchronized state, backed by hybrid in-memory and MongoDB persistence, JWT auth, and decoupled engine/transport/persistence layers deployed on AWS.",
@@ -61,14 +81,6 @@ export type MoreProject = {
 
 export const moreProjects: MoreProject[] = [
   {
-    title: "Learn Russian",
-    blurb: "A lightweight app for practicing common Russian vocabulary.",
-    tag: "TypeScript",
-    liveUrl: "https://learnrussian.gevorkmanukyan.com",
-    repoUrl: "https://github.com/Gevork-Manukyan/Learn-Russian",
-    status: "live",
-  },
-  {
     title: "PetSoft",
     blurb: "A UI demo for a pet-care management dashboard (HTML/CSS front-end only).",
     tag: "HTML/CSS",
@@ -83,14 +95,6 @@ export const moreProjects: MoreProject[] = [
     liveUrl: "https://corpcomment-eosin.vercel.app",
     repoUrl: "https://github.com/Gevork-Manukyan/Corpcomment",
     status: "demo",
-  },
-  {
-    title: "TuringSim",
-    blurb: "A Turing machine simulator for stepping through tape-based computation.",
-    tag: "TypeScript",
-    liveUrl: "https://turingsim.gevorkmanukyan.com",
-    repoUrl: "https://github.com/Gevork-Manukyan/TuringSim",
-    status: "live",
   },
   {
     title: "Polyrhythmic Rainbow",
