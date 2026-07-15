@@ -8,6 +8,7 @@ import { Cursor } from "@/components/ui/Cursor";
 import { ScrollProgress } from "@/components/layout/ScrollProgress";
 import { Nav } from "@/components/layout/Nav";
 import { Footer } from "@/components/layout/Footer";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -80,6 +81,7 @@ export default function RootLayout({
           <main className="flex-1">{children}</main>
           <Footer />
         </SmoothScroll>
+        <Analytics />
       </body>
     </html>
   );
