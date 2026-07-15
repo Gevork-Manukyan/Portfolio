@@ -13,7 +13,7 @@ export function Footer() {
     <footer className="border-t border-border">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 py-10 sm:flex-row">
         <p className="text-sm text-muted">
-          © {2026} {profile.name}. Built with Next.js &amp; Tailwind.
+          © {2026} {profile.name}.
         </p>
         <div className="flex items-center gap-2">
           {socialItems.map(({ key, href, label, Icon }) => (
