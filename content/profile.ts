@@ -22,10 +22,12 @@ export const profile = {
   socials: {
     github: "https://github.com/Gevork-Manukyan",
     linkedin: "https://www.linkedin.com/in/gevork-manukyan",
-    devto: "https://dev.to/gevorkmanukyan",
-    codepen: "https://codepen.io/Gevork-Manukyan",
     email: "mailto:Manukyan.Gevork01@gmail.com",
     x: "", // optional
+    // Identity-only: fed to Person.sameAs (app/page.tsx) for SEO, NOT rendered
+    // as icons — these profiles have no content worth linking visitors to yet.
+    devto: "https://dev.to/gevorkmanukyan",
+    codepen: "https://codepen.io/Gevork-Manukyan",
   },
   // Short list of things you do, shown as rotating/kinetic words in the hero
   roles: ["Full-Stack", "Backend", "Frontend"],
