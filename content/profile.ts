@@ -22,6 +22,8 @@ export const profile = {
   socials: {
     github: "https://github.com/Gevork-Manukyan",
     linkedin: "https://www.linkedin.com/in/gevork-manukyan",
+    devto: "https://dev.to/gevorkmanukyan",
+    codepen: "https://codepen.io/Gevork-Manukyan",
     email: "mailto:Manukyan.Gevork01@gmail.com",
     x: "", // optional
   },

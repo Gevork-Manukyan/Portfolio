@@ -32,6 +32,8 @@ const jsonLd = {
       sameAs: [
         profile.socials.github,
         profile.socials.linkedin,
+        profile.socials.devto,
+        profile.socials.codepen,
       ].filter(Boolean),
     },
   ],

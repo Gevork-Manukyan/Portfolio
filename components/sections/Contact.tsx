@@ -5,13 +5,15 @@ import { submitContact, type ContactState } from "@/app/actions/contact";
 import { profile } from "@/content/profile";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
-import { GitHubIcon, LinkedInIcon, MailIcon, XIcon, ArrowUpRightIcon } from "@/components/ui/icons";
+import { GitHubIcon, LinkedInIcon, MailIcon, XIcon, DevToIcon, CodePenIcon, ArrowUpRightIcon } from "@/components/ui/icons";
 
 const initialState: ContactState = { status: "idle" };
 
 const socialItems = [
   { key: "github", href: profile.socials.github, label: "GitHub", Icon: GitHubIcon },
   { key: "linkedin", href: profile.socials.linkedin, label: "LinkedIn", Icon: LinkedInIcon },
+  { key: "devto", href: profile.socials.devto, label: "DEV", Icon: DevToIcon },
+  { key: "codepen", href: profile.socials.codepen, label: "CodePen", Icon: CodePenIcon },
   { key: "email", href: profile.socials.email, label: "Email", Icon: MailIcon },
   { key: "x", href: profile.socials.x, label: "X", Icon: XIcon },
 ].filter((s) => s.href);
