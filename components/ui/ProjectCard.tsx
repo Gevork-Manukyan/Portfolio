@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useRef, useState } from "react";
 import type { Project } from "@/content/projects";
 import { ArrowUpRightIcon, GitHubIcon, CodeIcon } from "@/components/ui/icons";
@@ -46,12 +47,22 @@ export function ProjectCard({ project }: { project: Project }) {
 
       {/* Optional image */}
       {project.image ? (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
-          src={project.image}
-          alt={project.title}
-          className="mb-6 aspect-video w-full rounded-2xl border border-border object-cover"
-        />
+        <div className="relative mb-6 aspect-video w-full overflow-hidden rounded-2xl border border-border">
+          <Image
+            src={project.image}
+            alt={project.title}
+            fill
+            // Featured cards span both columns; regular cards are half-width
+            // at md+. Sizes account for container/padding so the browser
+            // fetches the smallest sufficient variant.
+            sizes={
+              project.featured
+                ? "(min-width: 1152px) 1040px, (min-width: 640px) calc(100vw - 112px), calc(100vw - 96px)"
+                : "(min-width: 1152px) 476px, (min-width: 768px) calc(50vw - 100px), (min-width: 640px) calc(100vw - 112px), calc(100vw - 96px)"
+            }
+            className="object-cover"
+          />
+        </div>
       ) : (
         <div className="mb-6 flex aspect-video w-full items-center justify-center rounded-2xl border border-border bg-gradient-to-br from-surface-2 to-surface text-muted">
           <CodeIcon width={28} height={28} />
