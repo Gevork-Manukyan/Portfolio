@@ -44,14 +44,10 @@ export function Hero() {
             className="font-display text-5xl font-bold leading-[1.05] tracking-tight sm:text-7xl lg:text-8xl"
           >
             {profile.name}
+            <span className="mt-4 block font-display text-2xl font-medium leading-tight sm:text-3xl">
+              <span className="gradient-text">{profile.title}</span>
+            </span>
           </motion.h1>
-
-          <motion.p
-            variants={item}
-            className="mt-4 font-display text-2xl font-medium text-muted sm:text-3xl"
-          >
-            <span className="gradient-text">{profile.title}</span>
-          </motion.p>
 
           <motion.p
             variants={item}
