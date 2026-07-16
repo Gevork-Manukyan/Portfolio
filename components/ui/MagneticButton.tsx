@@ -18,7 +18,7 @@ const base =
   "relative inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-medium transition-colors";
 const variants = {
   primary:
-    "bg-accent text-white hover:bg-accent/90 shadow-[0_0_30px_-8px_var(--accent)]",
+    "bg-accent-strong text-white hover:bg-accent-strong/90 shadow-[0_0_30px_-8px_var(--accent)]",
   ghost:
     "border border-border bg-surface/40 text-foreground hover:border-accent/60 hover:text-white",
 };

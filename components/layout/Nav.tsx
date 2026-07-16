@@ -42,7 +42,7 @@ export function Nav() {
         <a
           href="#top"
           className="font-display text-lg font-bold tracking-tight"
-          aria-label={`${profile.name} — home`}
+          aria-label={`${initials}. ${profile.name}, home`}
         >
           {initials}
           <span className="text-accent">.</span>
@@ -63,7 +63,7 @@ export function Nav() {
 
         <a
           href="#contact"
-          className="hidden rounded-full bg-accent px-5 py-2 text-sm font-medium text-white transition-colors hover:bg-accent/90 md:inline-block"
+          className="hidden rounded-full bg-accent-strong px-5 py-2 text-sm font-medium text-white transition-colors hover:bg-accent-strong/90 md:inline-block"
         >
           Let&apos;s talk
         </a>

@@ -11,7 +11,8 @@
   --border: #26262e;
   --foreground: #ededed;
   --muted: #9a9aa6;
-  --accent: #7c5cff; /* electric violet */
+  --accent: #7c5cff; /* electric violet — decorative (glows, gradients, borders) */
+  --accent-strong: #6d4aff; /* darker violet for white text on accent — WCAG AA (5.16:1) */
   --accent-2: #22d3ee; /* cyan */
   --accent-3: #f471b5; /* pink (tertiary highlights) */
 }
@@ -24,6 +25,7 @@
   --color-foreground: var(--foreground);
   --color-muted: var(--muted);
   --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
   --color-accent-2: var(--accent-2);
   --color-accent-3: var(--accent-3);
 

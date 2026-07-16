@@ -120,7 +120,7 @@ export function Contact() {
               <button
                 type="submit"
                 disabled={pending}
-                className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-accent px-6 py-3.5 font-medium text-white transition-colors hover:bg-accent/90 disabled:cursor-not-allowed disabled:opacity-60 sm:w-auto"
+                className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-accent-strong px-6 py-3.5 font-medium text-white transition-colors hover:bg-accent-strong/90 disabled:cursor-not-allowed disabled:opacity-60 sm:w-auto"
               >
                 {pending ? "Sending…" : "Send message"}
               </button>
