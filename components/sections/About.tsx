@@ -35,7 +35,7 @@ export function About() {
                 key={f.label}
                 className="rounded-2xl border border-border bg-surface/40 p-4"
               >
-                <div className="font-mono text-xs uppercase tracking-wide text-accent">
+                <div className="font-mono text-xs uppercase tracking-wide text-accent [overflow-wrap:anywhere]">
                   {f.label}
                 </div>
                 <div className="mt-1 text-sm font-medium text-foreground">
