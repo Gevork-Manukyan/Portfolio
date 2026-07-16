@@ -81,7 +81,7 @@ export function Contact() {
                   <label htmlFor="name" className="mb-1.5 block text-sm text-muted">
                     Name
                   </label>
-                  <input id="name" name="name" type="text" className={fieldClass} placeholder="Jane Doe" />
+                  <input id="name" name="name" type="text" autoComplete="name" className={fieldClass} placeholder="Jane Doe" />
                   {state.errors?.name && (
                     <p className="mt-1.5 text-sm text-accent-3">{state.errors.name}</p>
                   )}
@@ -90,7 +90,7 @@ export function Contact() {
                   <label htmlFor="email" className="mb-1.5 block text-sm text-muted">
                     Email
                   </label>
-                  <input id="email" name="email" type="email" className={fieldClass} placeholder="jane@example.com" />
+                  <input id="email" name="email" type="email" autoComplete="email" className={fieldClass} placeholder="jane@example.com" />
                   {state.errors?.email && (
                     <p className="mt-1.5 text-sm text-accent-3">{state.errors.email}</p>
                   )}
