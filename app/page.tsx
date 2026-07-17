@@ -34,6 +34,7 @@ const jsonLd = {
         profile.socials.linkedin,
         profile.socials.devto,
         profile.socials.codepen,
+        profile.socials.handshake,
       ].filter(Boolean),
     },
   ],

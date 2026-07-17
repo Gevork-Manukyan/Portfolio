@@ -25,9 +25,12 @@ export const profile = {
     email: "mailto:Manukyan.Gevork01@gmail.com",
     x: "", // optional
     // Identity-only: fed to Person.sameAs (app/page.tsx) for SEO, NOT rendered
-    // as icons — these profiles have no content worth linking visitors to yet.
+    // as icons. dev.to/codepen have no content worth linking visitors to yet;
+    // handshake is content-rich but bot-gated (403s crawlers), so its SEO value
+    // is uncertain but harmless — Google ignores it if it can't crawl it.
     devto: "https://dev.to/gevorkmanukyan",
     codepen: "https://codepen.io/Gevork-Manukyan",
+    handshake: "https://app.joinhandshake.com/profiles/gevork-manukyan",
   },
   // Short list of things you do, shown as rotating/kinetic words in the hero
   roles: ["Full-Stack", "Backend", "Frontend"],
