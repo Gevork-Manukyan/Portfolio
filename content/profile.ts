@@ -7,7 +7,7 @@ export const profile = {
   title: "Full Stack Software Engineer",
   // One-line tagline / value proposition
   tagline:
-    "Full Stack Software Engineer specializing in React, TypeScript, REST APIs, database-driven business applications, and end-to-end product development.",
+    "Full-stack software engineer building React and TypeScript products, REST APIs, and data-intensive business systems—from architecture through production.",
   // A few sentences for the About section
   bio: [
     "I'm a full-stack software engineer who builds database-driven business applications end to end. Day to day that means designing React and TypeScript frontends on top of REST APIs and relational or document databases. This is production software real teams rely on, from a healthcare operations platform used across surgery centers to multi-tenant systems that replace manual, paper-based workflows.",

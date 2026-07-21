@@ -19,6 +19,8 @@ const jsonLd = {
       "@id": `${siteUrl}/#website`,
       url: siteUrl,
       name: profile.name,
+      // Ties the bare domain to the person so both point at one entity.
+      alternateName: siteUrl.replace(/^https?:\/\//, ""),
       publisher: { "@id": `${siteUrl}/#person` },
     },
     {
