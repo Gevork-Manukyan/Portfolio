@@ -22,7 +22,7 @@ export const projects: Project[] = [
     title: "GroupScheduler",
     description:
       "A scheduling tool that overlays everyone's availability to surface the dates that work for the whole group — no accounts, just create a group and share one link. Built on Next.js, with every read and write going through server-side route handlers.",
-    tech: ["Next.js", "React", "Tailwind CSS"],
+    tech: ["Next.js", "React", "Route Handlers", "Tailwind CSS"],
     liveUrl: "https://groupscheduler.gevorkmanukyan.com",
     repoUrl: "https://github.com/Gevork-Manukyan/GroupScheduler",
     image: "/projects/group-scheduler.webp",
