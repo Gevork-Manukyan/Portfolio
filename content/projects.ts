@@ -30,6 +30,17 @@ export const projects: Project[] = [
     status: "live",
   },
   {
+    title: "TrackMe",
+    description:
+      "A passport for the places you want to try — build lists of restaurants, bars, and day trips, then stamp each one as you go. Local-first by design: reads and writes hit IndexedDB instantly and sync in the background to a Postgres store, so it stays fast and fully usable offline. Installable as a PWA, with per-user row-level security and last-write-wins conflict resolution.",
+    tech: ["Next.js", "React", "TypeScript", "Supabase", "Prisma", "Dexie", "PWA"],
+    liveUrl: "https://trackme.gevorkmanukyan.com",
+    repoUrl: "https://github.com/Gevork-Manukyan/TrackMe",
+    image: "/projects/trackme.webp",
+    featured: true,
+    status: "live",
+  },
+  {
     title: "Learn Russian",
     description:
       "An interactive flashcard app for practicing Russian vocabulary, cycling through 646 Russian-English word pairs with 3D card-flip animations, shuffle mode, and session progress tracking.",
